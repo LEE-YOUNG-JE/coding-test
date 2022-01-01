@@ -8,7 +8,7 @@ long long solution(int n, vector<int> times) {
     sort(times.begin(), times.end(), greater<int>());
     long long max_times =  (long long)times[0]*n ;///lonlong 남의 코드참조
     long long min_times = 0;
-    long long mid_times;
+    long long mid_times;//test
     long long people_check = 0;
     while(min_times < max_times){
         people_check = 0;
